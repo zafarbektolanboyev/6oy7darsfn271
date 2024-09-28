@@ -1,0 +1,47 @@
+/* Karta konteyneri uchun */
+.cards {
+    display: flex;
+    flex-wrap: wrap; /* Qator bo'lib chiqish va satr to'lganida keyingi qatorda davom etishi uchun */
+    gap: 20px; /* Kartalar orasidagi bo'sh joy */
+    justify-content: center; /* Kartalarni markazda hizalaydi */
+    padding: 20px;
+
+  }
+  
+  /* Har bir karta uchun */
+  .cards .card {
+    margin-top: 100px;
+    background-color: #f9f9f9; /* Karta fondi */
+    border: 1px solid #ddd; /* Karta cheti */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soyali ko'rinish */
+    padding: 20px;
+    padding-bottom: 50px;
+    text-align: center; /* Matnlarni markazlash */
+    height: 450px;
+    width: 300px;
+  }
+  
+  /* Karta sarlavhasi uchun */
+  .cards h2 {
+    font-size: 18px;
+  }
+  
+  /* Karta narxi uchun */
+  .cards h3 {
+    font-size: 16px;
+    color: #555;
+  }
+  .cards .text{
+    padding-top: 20px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .cards img{
+    width: 100%;
+    height: 90%;
+    border-radius: 15px;
+  }

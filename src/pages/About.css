@@ -1,0 +1,21 @@
+.Cards{
+    display:flex;
+    gap: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+.Card{
+    width: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 20px;
+    gap: 20px;
+}
+.Card img{
+    width: 100%;
+}

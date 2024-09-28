@@ -1,0 +1,53 @@
+.icons img{
+    width: 20px;
+    height: 20px;
+    font-size: 0.9rem;
+    font-weight: 200;
+    transition: all 0.5s;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-componenta{
+    background-color: aquamarine;
+    padding: 20px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+.icons img:hover{
+    width: 30px;
+    height: 30px;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 50%;
+    transform: scale(1);
+    font-size: 1.1rem;
+}
+.logo h2{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding-top: -30px;
+    font-size: 3rem;
+    border-radius: 15px;
+}
+a:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1);
+    padding: 12px;
+    border-radius: 12px;
+}

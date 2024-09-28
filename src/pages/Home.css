@@ -1,0 +1,32 @@
+.text{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+}
+.lorem{
+    font-size: 3rem;
+    font-weight: 300;
+    text-align: center;
+}
+.btn{
+    padding: 15px;
+    background-color: blue;
+    width: 300px;
+    color: white;
+    border-radius: 15px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 425px;
+    transition: all 0.5s;
+}
+.btn:hover{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    transform: scale(1.1);
+}
