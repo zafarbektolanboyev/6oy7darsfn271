@@ -3,7 +3,7 @@ import "./Card.css";
 
 function Card() {
   const [cards, setCards] = useState([]);
-  const [loading, setLoading] = useState(true); // Yuklanish holati uchun state
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     fetch("https://strapi-store-server.onrender.com/api/products")
